@@ -1,0 +1,16 @@
+package com;
+
+public class Dinga {
+Dinga(){
+	System.out.println("hi dinga");
+}
+Dinga(int a){
+	this();
+	System.out.println("bye dinga");
+}
+public static void main(String[] args) {
+	Dinga d=new Dinga(2);
+	System.out.println();
+}
+
+}

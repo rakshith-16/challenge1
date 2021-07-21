@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.challenge.chall&apos; to &apos;Challenge&apos;&#x0D;&#x0A;- Original project: &apos;Challenge&apos;&#x0D;&#x0A;- Original element: &apos;com.challenge.chall&apos;&#x0D;&#x0A;- Renamed element: &apos;com.challenge.Challenge&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;chall&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.challenge{chall.java[chall" matchStrategy="1" name="Challenge" qualified="false" references="true" similarDeclarations="false" stamp="1626860724024" textual="false" version="1.0"/>
+</session>

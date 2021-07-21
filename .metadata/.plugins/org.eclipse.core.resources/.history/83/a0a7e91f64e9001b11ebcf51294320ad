@@ -1,0 +1,38 @@
+package com.exception;
+
+public class Nestedtry {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(manipulation(10,0));
+		manipulation();
+
+		//no compile error
+	}
+public static int manipulation(int[] i, int j){
+
+	
+	try{
+//		int add=i[1]+i[5];
+		try{
+			return i/j;
+		}catch(Exception e){
+			
+			return 10;
+		}finally{
+			System.out.println("finally ty");
+		}
+	}catch(NullPointerException e){
+		return 100;
+	}catch(Exception e){
+
+		return 0;
+	}finally{
+//		return 10;
+		System.out.println("hi this is finally block");
+	}		
+		
+	}
+}
+	
+
+

@@ -1,0 +1,20 @@
+package com.exception;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		manipulation(10,0);
+//no compile error
+	}
+public static void manipulation(int i, int j){
+	//any mechanism ? if any mechanism jvm will execute, if not then
+	//the main will creete N OBJECT OF THR RELEVANT EXECEPTIOn and pass it to jvm
+	
+	try{
+		System.out.println(i/j);
+	}catch(Exception e){
+		System.out.println("invalid index");
+	}
+}
+}

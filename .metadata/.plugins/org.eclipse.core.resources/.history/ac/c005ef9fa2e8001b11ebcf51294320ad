@@ -1,0 +1,14 @@
+package com;
+
+public class Student {
+int age;
+String name;
+int marks;
+public Student(int age, String name, int marks) {
+	super();
+	this.age = age;
+	this.name = name;
+	this.marks = marks;
+}
+
+}

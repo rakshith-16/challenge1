@@ -1,0 +1,31 @@
+package com;
+
+public  class Bank extends SBI {
+	@Override
+ void name(){
+System.out.println("my name is rakshith");		
+	}
+	@Override
+	void mobile(){
+		System.out.println("nokia");
+	}
+	@Override
+	 void mouse(){
+		System.out.println("micrsoft");
+	}
+	
+
+	public static void main(String[] args) {
+		Bank b=new Bank();
+		b.mouse();
+		b.mobile();
+		b.name();
+		
+	}
+		
+	
+		
+
+	}
+
+

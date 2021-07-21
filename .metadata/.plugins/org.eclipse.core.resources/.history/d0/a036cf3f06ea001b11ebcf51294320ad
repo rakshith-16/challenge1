@@ -1,0 +1,26 @@
+package com.challenge;
+
+public class Challenege4 {
+	
+	public static  boolean iscatplaying(boolean summer,int temperature){
+		summer=true; temperature=65;
+		if(summer==true){
+			if(temperature>=25 || temperature<=45){
+				return true;
+			}else{
+				return false;
+			}
+		}
+		return false;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Challenege4 c=new Challenege4();
+		System.out.println();
+	
+		
+
+
+	}
+
+}

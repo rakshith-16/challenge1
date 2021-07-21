@@ -1,0 +1,8 @@
+package com;
+
+public abstract class Vechile {
+	 Vechile(int cost){
+		 System.out.println("my cash");
+	 }
+
+}

@@ -1,0 +1,19 @@
+package com.exception;
+
+public class Accounts {
+
+	private double balance;
+
+	public Accounts(double balance) {
+		this.balance=balance;
+		// TODO Auto-generated constructor stub
+	}
+	
+	public double deduction(double amount) throws Throwexception{
+		if(amount>this.balance){
+			throw new Throwexception("Rakshith account doen't sufficient balance");
+		}
+		return this.balance;
+	}
+
+}

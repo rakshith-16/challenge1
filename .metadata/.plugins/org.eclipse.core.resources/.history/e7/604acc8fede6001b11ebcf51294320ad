@@ -1,0 +1,13 @@
+package com;
+
+public abstract class RBI {
+	abstract void name();
+	
+	void mobile(){
+		System.out.println("honor");
+	}
+	
+	
+	
+
+}

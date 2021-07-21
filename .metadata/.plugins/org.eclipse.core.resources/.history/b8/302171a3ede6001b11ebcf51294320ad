@@ -1,0 +1,21 @@
+package com;
+
+public  class RBI extends SBI {
+	@Override
+	void m1(int p,int q){
+		System.out.println(p+" "+q);
+	}
+	
+	public static void main(String[] args) {
+		RBI r=new RBI();
+		r.m1(10,20);
+		
+		
+	}
+	
+	}
+	
+	
+	
+
+

@@ -1,0 +1,9 @@
+package com;
+
+public abstract  class SBI extends RBI {
+	 
+	abstract void mouse();
+	
+
+
+}

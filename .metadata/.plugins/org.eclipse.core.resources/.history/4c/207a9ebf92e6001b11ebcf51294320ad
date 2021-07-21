@@ -1,0 +1,17 @@
+package com;
+
+public  class Bank implements A,B  {
+	
+@Override
+public void m1(){
+	System.out.println("ia using m1 as metho");
+}
+public static void main(String[] args) {
+	Bank b=new Bank();
+	b.m1();
+}
+
+
+	}
+
+

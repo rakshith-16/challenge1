@@ -1,0 +1,16 @@
+package com;
+
+public  class Car extends Vechile {
+	
+	Car(String name){
+		super(100);
+		System.out.println(7);
+	}
+	public static void main(String[] args) {
+		Car c=new Car("jsxvx");
+	
+		
+	}
+
+
+}

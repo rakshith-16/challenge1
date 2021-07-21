@@ -1,0 +1,14 @@
+package com;
+
+public abstract  class SBI  {
+	 
+	int prod;
+    abstract void m1(int p,int q);
+    void m2()
+    {
+        System.out.println(prod);
+    }
+	
+
+
+}

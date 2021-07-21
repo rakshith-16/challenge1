@@ -1,0 +1,7 @@
+package constructor;
+
+public class Batch16 extends Batch {
+public  Batch16(int strength,int female,int male){
+	super("batch",20,22,5,"megha");
+}
+}

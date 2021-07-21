@@ -1,0 +1,25 @@
+package com.challenge;
+
+public class challenge1 {
+	int minute;
+	int seconds;
+//	int hour=12;
+	 public void getDurationString(int minute ,int seconds){
+		 
+				if(minute>=0){
+					if(seconds>=0 && seconds<=59){
+						
+						System.out.println((minute/60)+":"+seconds/60+":"+ seconds );
+						
+					}else{
+						System.out.println("inavlid value");
+					}
+				}
+	 }
+	 public static void main(String[] args) {
+		challenge1 c=new challenge1();
+		c.getDurationString(59, 50);
+		
+	}
+
+}

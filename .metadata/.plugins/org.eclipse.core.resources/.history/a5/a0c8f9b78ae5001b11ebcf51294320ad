@@ -1,0 +1,22 @@
+package com;
+
+public class Test  {
+public static void m1(int x, int y){
+	System.out.println("kjjckj");
+}
+public static void m1(int x, int y,int z){
+	System.out.println("dchbbdc");
+}
+
+		 public static void main(String[] args) {
+			 m1(1,2);
+			 m1(1,2,3);
+		
+		
+	}
+	 }
+	
+	 
+	
+
+

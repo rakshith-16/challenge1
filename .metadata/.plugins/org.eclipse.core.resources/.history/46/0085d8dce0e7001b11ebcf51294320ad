@@ -1,0 +1,19 @@
+package com;
+
+public class Sol {
+
+	public static void main(String[] args) {
+	Worker w=new Worker("rakshith",22,"kengri");
+	Worker w1=new Worker("karthik",21,"kengri");
+	Worker w2=new Worker("govind",23,"kengri");
+	System.out.println(w.name+" "+w.age+" "+w.address);
+	System.out.println(w1.name+" "+w1.age+" "+w1.address);
+
+	System.out.println(w2.name+" "+w2.age+" "+w2.address);
+
+
+	
+
+	}
+
+}

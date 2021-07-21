@@ -1,0 +1,14 @@
+package com.upcasting;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Father f=new Son();
+		System.out.println(f.age);
+		Son s=(Son) f;
+		System.out.println(s.age+" "+s.name);
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com;
+
+public class Shrowroom extends Car{
+	@Override
+void carengine(){
+	System.out.println();
+}
+	
+	public static void main(String[] args) {
+		Shrowroom s=new Shrowroom();
+		s.carengine();
+		
+		
+
+	}
+
+}

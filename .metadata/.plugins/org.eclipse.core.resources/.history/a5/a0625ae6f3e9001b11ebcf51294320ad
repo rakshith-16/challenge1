@@ -1,0 +1,19 @@
+package com.challenge;
+
+public class challenge1 {
+	int minute;
+	int seconds;
+	int hour;
+	 public String getDurationString(int minute ,int seconds){
+		 
+				if(minute>10){
+				}
+				return "invalid value";
+	 }
+	 public static void main(String[] args) {
+		challenge1 c=new challenge1();
+		c.getDurationString(5, 50);
+		
+	}
+
+}

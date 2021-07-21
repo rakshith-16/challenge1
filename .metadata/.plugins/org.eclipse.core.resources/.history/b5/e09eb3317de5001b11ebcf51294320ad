@@ -1,0 +1,12 @@
+package com;
+
+public class Test implements pk {
+
+	int[]x={10,20,30};
+	public static void main(String[] args) {
+		Test t=new Test();
+		System.out.println(t.x);
+	
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.supr;
+
+public class Son extends Father{
+	Son(int a){
+		System.out.println("son");
+	}
+	Son(String b){
+		System.out.println("son is studying in 5th class");
+	}
+
+}

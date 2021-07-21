@@ -1,0 +1,24 @@
+package com;
+
+public  class Bank extends SBI {
+	@Override
+	void money(){
+		System.out.println("money is big");
+	}
+	@Override
+	 void roi(){
+		System.out.println("rate of return");
+	}
+
+	public static void main(String[] args) {
+		Bank b=new Bank();
+		b.money();
+		
+	}
+		
+	
+		
+
+	}
+
+

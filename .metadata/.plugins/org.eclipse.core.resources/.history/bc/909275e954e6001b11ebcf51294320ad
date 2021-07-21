@@ -1,0 +1,8 @@
+package com;
+
+public abstract class Vechile {
+	 void vechiledetails(){
+		 System.out.println("my bike");
+	 }
+
+}

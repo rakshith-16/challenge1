@@ -1,0 +1,39 @@
+package com;
+
+public  class SBI extends RBI {
+	@Override
+		 void money(){
+	System.out.println("happy money");
+	}
+
+	@Override
+	void honey() {
+System.out.println("i love honey");
+		
+	}
+
+	@Override
+	void baby() {
+		// TODO Auto-generated method stub
+		System.out.println("baby oh my baby");
+		
+	}
+
+	@Override
+	void nayana() {
+		// TODO Auto-generated method stub
+		System.out.println("suvarna daughter");
+		
+	}
+	public static void main(String[] args) {
+	      SBI s=new SBI();
+	      s.nayana();
+	      s.money();
+	      s.baby();
+	      s.honey();
+	}
+	
+	
+
+
+}

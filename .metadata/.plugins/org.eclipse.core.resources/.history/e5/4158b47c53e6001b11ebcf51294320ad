@@ -1,0 +1,9 @@
+package com;
+
+public abstract class RBI {
+	abstract void money();
+	
+	
+	
+
+}

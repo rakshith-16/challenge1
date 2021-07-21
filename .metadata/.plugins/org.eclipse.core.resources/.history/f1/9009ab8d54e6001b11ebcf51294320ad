@@ -1,0 +1,10 @@
+package com;
+
+public abstract class Car {
+	abstract void carrace();
+	abstract void bike();
+	abstract void racer();
+	abstract void biker();
+	
+
+}

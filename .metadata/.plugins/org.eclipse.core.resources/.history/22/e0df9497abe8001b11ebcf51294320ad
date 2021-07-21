@@ -1,0 +1,8 @@
+package com.supr;
+
+public class Son extends Father{
+	Son(){
+		System.out.println("son");
+	}
+
+}

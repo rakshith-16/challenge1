@@ -1,0 +1,39 @@
+package com.challenge;
+
+public class challenge1 {
+	int minute;
+	int seconds;
+//	int hour=12;
+	 public String getDurationString(double minute ,double seconds){
+		 
+				if(minute>=0){
+					if(seconds>=0 && seconds<=59){
+						return "HOUR "+minute/60+" mins "+seconds/60+" seconds" ;
+						
+//						System.out.println("HOUR "+minute/60+" mins "+seconds/60+" seconds" );
+						
+						
+					}else{
+						return "inavlid value";
+//						System.out.println("inavlid value");
+					}
+				}
+				return "inavlid";
+	 }
+	 public void getDurationString(double seconds){
+		 if(seconds>=0){
+			 System.out.println("valid");
+		 }else{
+			 System.out.println("invalid");
+		 }
+	 }
+	 
+	 public static void main(String[] args) {
+		challenge1 c=new challenge1();
+				c. getDurationString(90);
+		System.out.println(c.getDurationString(90, 35));
+
+		
+	}
+
+}

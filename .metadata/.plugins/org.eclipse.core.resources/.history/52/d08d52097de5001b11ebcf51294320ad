@@ -1,0 +1,12 @@
+package com;
+
+public class Test implements pk {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated met
+int x=777;
+System.out.println(x);
+System.out.println(pk.x);
+	}
+
+}

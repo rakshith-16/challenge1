@@ -1,0 +1,13 @@
+package com;
+
+public  class Car extends Vechile {
+	
+	void mycar(){
+		System.out.println("");
+	}
+	public static void main(String[] args) {
+		Car c=new Car();
+	}
+
+
+}

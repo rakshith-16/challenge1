@@ -1,0 +1,39 @@
+package com;
+
+public class Shrowroom extends Car {
+	
+	@Override
+	void carrace(){
+	System.out.println("iam a racer");
+	}
+	
+	
+
+	@Override
+	void bike() {
+		// TODO Auto-generated method stub
+		System.out.println("i am a biker");
+		
+	}
+
+	@Override
+	void racer() {
+		// TODO Auto-generated method stub
+		System.out.println("i am  a racer");
+	}
+
+	@Override
+	void biker() {
+		// TODO Auto-generated method stub
+		System.out.println("i am biker");
+	}
+	public static void main(String[] args) {
+		Shrowroom m=new Shrowroom();
+		m.biker();
+		m.racer();
+		m.bike();
+		m.carrace();
+	}
+	}
+
+

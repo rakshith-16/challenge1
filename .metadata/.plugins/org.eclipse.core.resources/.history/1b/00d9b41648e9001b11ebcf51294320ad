@@ -1,0 +1,18 @@
+package com.exception;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class Throwsexception {
+	
+public static void main(String[] args) {
+	try {
+		PrintWriter pw=new PrintWriter("first.txt");
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		System.out.println("file not found");
+//		e.printStackTrace();
+	}
+	
+}
+}

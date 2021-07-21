@@ -1,0 +1,21 @@
+package com;
+
+public class Test  {
+
+	 int[]x={10,20,30};
+	 String y="rakshith";
+	 String[] name={"appi","lakshmi","chinnu"};
+	 
+	public static void main(String[] args) {
+		String[] age={"abhi","uday","adhirea"};
+		Test t=new Test();
+		System.out.println(t.x[0]);
+		System.out.println(t.x[1]);
+		System.out.println(t.x[2]);
+		System.out.println(t.y);
+		System.out.println(t.name[0]);
+		System.out.println(age.length);
+	
+	}
+
+}

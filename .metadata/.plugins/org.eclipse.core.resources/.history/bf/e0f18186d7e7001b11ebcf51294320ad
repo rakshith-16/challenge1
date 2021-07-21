@@ -1,0 +1,22 @@
+package com;
+
+public   class SBI  {
+	 
+	int age=55;
+	String name;
+	int id;
+	SBI(int age, String name, int id){
+		this.age=age;
+		this.name=name;
+		this.id=id;
+			}
+	public static void main(String[] args) {
+		SBI s=new SBI(22,"appi",101);
+		SBI u=new SBI(32,"suhas",102);
+		System.out.println(u.age+" "+u.name+" "+u.id);
+		System.out.println(s.age+" "+s.name+" "+s.id);
+	}
+	
+
+
+}

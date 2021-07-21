@@ -1,0 +1,14 @@
+package com.upcasting;
+
+public class User {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e=new Tester();
+		Tester t=(Tester) e();
+
+	}
+
+	
+
+}

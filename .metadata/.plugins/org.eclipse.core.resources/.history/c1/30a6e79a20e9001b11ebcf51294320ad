@@ -1,0 +1,12 @@
+package com.exception;
+
+public class exception {
+		public static void main(String[] args) {
+		exception e=new exception();
+		int i=0;
+		int j=10/i;
+
+		System.out.println(j);
+	}
+
+}

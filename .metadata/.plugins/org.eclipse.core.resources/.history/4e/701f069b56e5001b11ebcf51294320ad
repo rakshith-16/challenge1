@@ -1,0 +1,16 @@
+package com;
+
+public class Test {
+int a=10;
+static int y=30;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Test t=new Test();
+		System.out.println(t.a);
+		System.out.println("kbcdgc");
+		System.out.println("hello iam rakshith");
+		System.out.println(y);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.exception;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+
+public class Throwsexception {
+public static void main(String[] args) throws FileNotFoundException {
+	PrintWriter pw=new PrintWriter("first.txt");
+	
+}
+}
